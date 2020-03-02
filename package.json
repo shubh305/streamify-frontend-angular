@@ -1,5 +1,5 @@
 {
-  "name": "angular-starter-s",
+  "name": "streamify-angular",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -8,9 +8,9 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "dev:ssr": "sudo ng run streamify-angular:serve-ssr",
-    "serve:ssr": "sudo node dist/streamify-angular/server/main.js",
-    "build:ssr": "sudo ng build --prod && sudo ng run streamify-angular:server:production",
+    "dev:ssr": "ng run streamify-angular:serve-ssr",
+    "serve:ssr": "node dist/streamify-angular/server/main.js",
+    "build:ssr": "ng build --prod && ng run streamify-angular:server:production",
     "prerender": "ng run streamify-angular:prerender"
   },
   "private": true,
